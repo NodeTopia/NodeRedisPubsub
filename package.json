@@ -1,0 +1,23 @@
+{
+  "name": "noderedispubsub",
+  "version": "1.0.0",
+  "description": "redis pubsub events",
+  "main": "redis-pubsub.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NodeTopia/NodeRedisPubsub.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NodeTopia/NodeRedisPubsub/issues"
+  },
+  "homepage": "https://github.com/NodeTopia/NodeRedisPubsub#readme",
+  "dependencies": {
+    "eventemitter2": "^5.0.1",
+    "redis": "^2.8.0"
+  }
+}
