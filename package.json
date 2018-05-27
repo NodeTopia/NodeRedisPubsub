@@ -10,12 +10,15 @@
     "type": "git",
     "url": "git+https://github.com/NodeTopia/NodeRedisPubsub.git"
   },
-  "author": "",
+  "author": "Tim D <mangoraft@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/NodeTopia/NodeRedisPubsub/issues"
   },
   "homepage": "https://github.com/NodeTopia/NodeRedisPubsub#readme",
+  "maintainer": [
+    "Tim D <mangoraft@gmail.com>"
+  ],
   "dependencies": {
     "eventemitter2": "^5.0.1",
     "redis": "^2.8.0"
