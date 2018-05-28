@@ -74,7 +74,6 @@ NodeRedisPubsub.prototype.removeListener = function(event, listener) {
 NodeRedisPubsub.prototype.emit = function(event, data) {
     var self = this;
     var args = [].splice.call(arguments, 0);
-    console.log(event,data)
     args.shift();
 
     if (!this.emitter.connected) {
